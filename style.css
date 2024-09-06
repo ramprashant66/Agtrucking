@@ -15,31 +15,28 @@
     color: black;
 
 }
-/* Basic reset for styling */
+
 body, h1, p {
     margin: 0;
     padding: 0;
 }
 
-/* Styling for the body */
+
 body {
-    background-image: url('tt.jpg'); /* Replace with your image path */
-    /*background: #1a2980;
-    background: -webkit-linear-gradient(to right, #26d0ce, #1a2980);
-    background: linear-gradient(to right, #26d0ce, #1a2980);*/
-    background-size: cover; /* Ensures the background image covers the whole page */
+    background-image: url('tt.jpg');
+    background-size: cover; 
     
-    background-position: center; /* Centers the background image */
-    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-position: center; 
+    background-repeat: no-repeat; 
     color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    overflow: hidden; /* Prevents scrolling */
+    overflow: hidden; 
 }
 
-/* Styling for the container */
+
 .container {
     background-color: #ffffff;
     border-radius: 10px;
@@ -49,41 +46,40 @@ body {
     text-align: center;
 }
 
-/* Styling for the title */
+
 .title {
     font-family: 'Memphis', sans-serif;
     font-size: 24px;
     margin-bottom: 10px;
-    color: blue; /* Blue color */
+    color: blue; 
 }
 
-/* Styling for the job title */
+
 .subtitle {
     font-size: 40px;
     margin-bottom: 20px;
     color: #555;
 }
 
-/* Styling for the contact details */
+
 .details {
     font-size: 30px;
     margin-bottom: 10px;
 }
 
-/* Styling for the footer */
+
 .footer {
     margin-top: 20px;
     font-size: 16px;
     color: #777;
 }
 
-/* Styling for links */
 a {
     color: #007BFF;
     text-decoration: none;
 }
 
-/* Hover effect for links */
+
 a:hover {
     text-decoration: underline;
 }
